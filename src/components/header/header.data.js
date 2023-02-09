@@ -15,4 +15,8 @@ export default [
     path: 'news',
     label: 'News',
   },
+    {
+    path: 'TEst data added',
+    label: 'News',
+  },
 ];
