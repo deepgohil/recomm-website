@@ -2,7 +2,7 @@
 sudo su
 cd /home/ec2-user/recomm-website
 echo "stpe1 code"
-ansible-galaxy install nginxinc.nginx
+sudo yum -y install nginx
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . /.nvm/nvm.sh
 nvm install 16
